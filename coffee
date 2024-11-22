@@ -1,0 +1,9 @@
+<html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>RSVP</title> <style> body { font-family: Arial, sans-serif; text-align: center; margin: 0; padding: 0;background-color: #f4f4f4; } h1 { color: #333; } form { background: #fff; padding: 20px; border-radius: 8px; display: inline-block; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); } input, select, button { display: block; width: 100%; margin: 10px 0; padding: 10px; border: 1px solid #ddd; border-radius: 4px; } button { background-color: #5cb85c; color: #fff;border: none; cursor: pointer; } button:hover { background-color: #4cae4c; } </style> </head> <body> <h1>RSVP for Our Event</h1> <form action="https://formspree.io/YOUR_EMAIL" method="POST"> <label for="name">Name:</label> <input type="text" id="name" name="name" required> <label for="email">Email:</label> <input type="email"id="email" name="email" required> <label for="attendance">Will you attend?</label> <select id="attendance"name="attendance"> <option value="Yes">Yes</option> <option value="No">No</option> </select> <buttontype="submit">Submit</button> </form> </body> </html>
+
+styles.css
+
+body { font-family: 'Arial', sans-serif; margin: 0; padding: 20px; background-color: #eaf7f7; color: #333; } h1 { text-align: center; } form { margin: 0 auto; max-width: 400px; padding: 20px; background: #fff; border-radius: 5px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); } input, select, button { width: 100%; margin-bottom: 15px; padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; } button { background-color: #007bff; color: white; border: none;cursor: pointer; } button:hover { background-color: #0056b3; }
+
+<link rel="stylesheet" href="styles.css”>
+
+<img src="logo.png" alt="Event Logo" style="max-width: 100%; height: auto;">
